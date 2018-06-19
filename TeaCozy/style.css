@@ -1,0 +1,139 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+.header {
+  display: flex;
+  padding: 0px;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+}
+span {
+  color: seashell;
+}
+.logo img {
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+}
+nav span {
+  display: inline-block;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+a {
+  color: seashell;
+}
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto;
+  padding-top: 0px;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 69px;
+  opacity: 0.9;
+}
+.mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  justify-content: center;
+  align-items: center;
+}
+.mission-statement {
+  display: flex;
+  margin: 0;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 120px;
+  padding: 0;
+}
+.mission-header {
+  display: flex;
+  margin: 0;
+}
+.mission-content {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding: 0;
+}
+.tea {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.tea-headline{
+  width: 100%;
+}
+.tea-types {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.tea-types img {
+  width: 300px;
+  height: 200px;
+}
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin-top: 75px;
+}
+.location img {
+  max-width: 100%;
+}
+.locations {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+  margin-top: 15px;
+  margin-bottom: 85px;
+}
+.location-header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  height: 100px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.copyright{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
